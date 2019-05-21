@@ -553,7 +553,7 @@ public class AddProductTest extends BaseClass{
 		Thread.sleep(2000);
 		addProductPage.clickSave();
 		Thread.sleep(2000);
-		System.out.println("All test");
+		System.out.println("All test 1");
 	}
 	
 	@AfterMethod
