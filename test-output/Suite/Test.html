@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>3/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>21/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Thu May 16 16:30:54 IST 2019</td>
+<td>Started on:</td><td>Tue May 21 15:21:31 IST 2019</td>
 </tr>
-<tr><td>Total time:</td><td>83 seconds (83378 ms)</td>
+<tr><td>Total time:</td><td>1063 seconds (1063912 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -75,18 +75,18 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.qa.test.HomeTest.verifySellLink()'><b>verifySellLink</b><br>Test class: com.qa.test.HomeTest</td>
-<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[text()=&apos;Sell&apos;]&quot;}
-  (Session info: chrome=74.0.3729.131)
+<td title='com.qa.test.SellTest.verifyProdAdd()'><b>verifyProdAdd</b><br>Test class: com.qa.test.SellTest</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@name=&apos;user_family_name&apos;]&quot;}
+  (Session info: chrome=74.0.3729.157)
   (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
 Command duration or timeout: 0 milliseconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
 System info: host: &apos;SOURCEANDROID&apos;, ip: &apos;192.168.136.2&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_131&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\Users\shubham\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 74.0.3729.131, webStorageEnabled: true}
-Session ID: 5feefe0741a89ccc20507968353dd94a
-*** Element info: {Using=xpath, value=//a[text()=&apos;Sell&apos;]}
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\Users\shubham\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 74.0.3729.157, webStorageEnabled: true}
+Session ID: 5a13389ed996bc130efd13d4ad0349e3
+*** Element info: {Using=xpath, value=//input[@name=&apos;user_family_name&apos;]}
 	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
 	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
 	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
@@ -104,21 +104,21 @@ Session ID: 5feefe0741a89ccc20507968353dd94a
 	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy11.click(Unknown Source)
-	at com.qa.pages.HomePage.clickSellLink(HomePage.java:26)
-	at com.qa.test.HomeTest.verifySellLink(HomeTest.java:31)
-... Removed 33 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace330551672", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace330551672'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[text()=&apos;Sell&apos;]&quot;}
-  (Session info: chrome=74.0.3729.131)
+	at com.sun.proxy.$Proxy11.clear(Unknown Source)
+	at com.qa.pages.SellPage.enterFamilyName(SellPage.java:43)
+	at com.qa.test.SellTest.verifyProdAdd(SellTest.java:161)
+... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace57407566", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace57407566'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@name=&apos;user_family_name&apos;]&quot;}
+  (Session info: chrome=74.0.3729.157)
   (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
 Command duration or timeout: 0 milliseconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
 System info: host: &apos;SOURCEANDROID&apos;, ip: &apos;192.168.136.2&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_131&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\Users\shubham\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 74.0.3729.131, webStorageEnabled: true}
-Session ID: 5feefe0741a89ccc20507968353dd94a
-*** Element info: {Using=xpath, value=//a[text()=&apos;Sell&apos;]}
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\Users\shubham\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 74.0.3729.157, webStorageEnabled: true}
+Session ID: 5a13389ed996bc130efd13d4ad0349e3
+*** Element info: {Using=xpath, value=//input[@name=&apos;user_family_name&apos;]}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
@@ -135,8 +135,7 @@ Session ID: 5feefe0741a89ccc20507968353dd94a
 	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)
 	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor3.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
 	at java.lang.reflect.Method.invoke(Unknown Source)
 	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
@@ -144,9 +143,9 @@ Session ID: 5feefe0741a89ccc20507968353dd94a
 	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy11.click(Unknown Source)
-	at com.qa.pages.HomePage.clickSellLink(HomePage.java:26)
-	at com.qa.test.HomeTest.verifySellLink(HomeTest.java:31)
+	at com.sun.proxy.$Proxy11.clear(Unknown Source)
+	at com.qa.pages.SellPage.enterFamilyName(SellPage.java:43)
+	at com.qa.test.SellTest.verifyProdAdd(SellTest.java:161)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -173,8 +172,8 @@ Session ID: 5feefe0741a89ccc20507968353dd94a
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
-<td>22</td>
-<td>com.qa.test.HomeTest@1e88b3c</td></tr>
+<td>54</td>
+<td>com.qa.test.SellTest@91161c7</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -187,17 +186,107 @@ Session ID: 5feefe0741a89ccc20507968353dd94a
 <td title='com.qa.test.LoginTest.verifiySignIn()'><b>verifiySignIn</b><br>Test class: com.qa.test.LoginTest</td>
 <td></td>
 <td>9</td>
-<td>com.qa.test.LoginTest@77caeb3e</td></tr>
+<td>com.qa.test.LoginTest@1bce4f0a</td></tr>
+<tr>
+<td title='com.qa.test.AddProductTest.verifyBaterycap()'><b>verifyBaterycap</b><br>Test class: com.qa.test.AddProductTest</td>
+<td></td>
+<td>36</td>
+<td>com.qa.test.AddProductTest@5c3bd550</td></tr>
+<tr>
+<td title='com.qa.test.AddProductTest.verifyBrandname()'><b>verifyBrandname</b><br>Test class: com.qa.test.AddProductTest</td>
+<td></td>
+<td>29</td>
+<td>com.qa.test.AddProductTest@5c3bd550</td></tr>
+<tr>
+<td title='com.qa.test.AddProductTest.verifyElectMoterBrand()'><b>verifyElectMoterBrand</b><br>Test class: com.qa.test.AddProductTest</td>
+<td></td>
+<td>41</td>
+<td>com.qa.test.AddProductTest@5c3bd550</td></tr>
+<tr>
+<td title='com.qa.test.AddProductTest.verifyElectMoterMileage()'><b>verifyElectMoterMileage</b><br>Test class: com.qa.test.AddProductTest</td>
+<td></td>
+<td>50</td>
+<td>com.qa.test.AddProductTest@5c3bd550</td></tr>
+<tr>
+<td title='com.qa.test.AddProductTest.verifyElectMoterYear()'><b>verifyElectMoterYear</b><br>Test class: com.qa.test.AddProductTest</td>
+<td></td>
+<td>57</td>
+<td>com.qa.test.AddProductTest@5c3bd550</td></tr>
+<tr>
+<td title='com.qa.test.AddProductTest.verifyFrameMaterial()'><b>verifyFrameMaterial</b><br>Test class: com.qa.test.AddProductTest</td>
+<td></td>
+<td>57</td>
+<td>com.qa.test.AddProductTest@5c3bd550</td></tr>
+<tr>
+<td title='com.qa.test.AddProductTest.verifyFrameSize()'><b>verifyFrameSize</b><br>Test class: com.qa.test.AddProductTest</td>
+<td></td>
+<td>64</td>
+<td>com.qa.test.AddProductTest@5c3bd550</td></tr>
+<tr>
+<td title='com.qa.test.AddProductTest.verifyGender()'><b>verifyGender</b><br>Test class: com.qa.test.AddProductTest</td>
+<td></td>
+<td>60</td>
+<td>com.qa.test.AddProductTest@5c3bd550</td></tr>
 <tr>
 <td title='com.qa.test.LoginTest.verifyLogin()'><b>verifyLogin</b><br>Test class: com.qa.test.LoginTest</td>
 <td></td>
-<td>16</td>
-<td>com.qa.test.LoginTest@77caeb3e</td></tr>
+<td>19</td>
+<td>com.qa.test.LoginTest@1bce4f0a</td></tr>
+<tr>
+<td title='com.qa.test.AddProductTest.verifyModel()'><b>verifyModel</b><br>Test class: com.qa.test.AddProductTest</td>
+<td></td>
+<td>31</td>
+<td>com.qa.test.AddProductTest@5c3bd550</td></tr>
+<tr>
+<td title='com.qa.test.AddProductTest.verifyProdActulPrice()'><b>verifyProdActulPrice</b><br>Test class: com.qa.test.AddProductTest</td>
+<td></td>
+<td>31</td>
+<td>com.qa.test.AddProductTest@5c3bd550</td></tr>
+<tr>
+<td title='com.qa.test.AddProductTest.verifyProductname()'><b>verifyProductname</b><br>Test class: com.qa.test.AddProductTest</td>
+<td></td>
+<td>27</td>
+<td>com.qa.test.AddProductTest@5c3bd550</td></tr>
+<tr>
+<td title='com.qa.test.AddProductTest.verifySaveBtn()'><b>verifySaveBtn</b><br>Test class: com.qa.test.AddProductTest</td>
+<td></td>
+<td>81</td>
+<td>com.qa.test.AddProductTest@5c3bd550</td></tr>
+<tr>
+<td title='com.qa.test.AddProductTest.verifySelectCategory()'><b>verifySelectCategory</b><br>Test class: com.qa.test.AddProductTest</td>
+<td></td>
+<td>25</td>
+<td>com.qa.test.AddProductTest@5c3bd550</td></tr>
+<tr>
+<td title='com.qa.test.HomeTest.verifySellLink()'><b>verifySellLink</b><br>Test class: com.qa.test.HomeTest</td>
+<td></td>
+<td>23</td>
+<td>com.qa.test.HomeTest@5e3a8624</td></tr>
+<tr>
+<td title='com.qa.test.AddProductTest.verifySellingPrice()'><b>verifySellingPrice</b><br>Test class: com.qa.test.AddProductTest</td>
+<td></td>
+<td>36</td>
+<td>com.qa.test.AddProductTest@5c3bd550</td></tr>
+<tr>
+<td title='com.qa.test.AddProductTest.verifySupportSp()'><b>verifySupportSp</b><br>Test class: com.qa.test.AddProductTest</td>
+<td></td>
+<td>62</td>
+<td>com.qa.test.AddProductTest@5c3bd550</td></tr>
+<tr>
+<td title='com.qa.test.AddProductTest.verifySuspensions()'><b>verifySuspensions</b><br>Test class: com.qa.test.AddProductTest</td>
+<td></td>
+<td>34</td>
+<td>com.qa.test.AddProductTest@5c3bd550</td></tr>
 <tr>
 <td title='com.qa.test.LoginTest.verifyTranstBtn()'><b>verifyTranstBtn</b><br>Test class: com.qa.test.LoginTest</td>
 <td></td>
 <td>7</td>
-<td>com.qa.test.LoginTest@77caeb3e</td></tr>
+<td>com.qa.test.LoginTest@1bce4f0a</td></tr>
+<tr>
+<td title='com.qa.test.AddProductTest.verifyWheelSize()'><b>verifyWheelSize</b><br>Test class: com.qa.test.AddProductTest</td>
+<td></td>
+<td>55</td>
+<td>com.qa.test.AddProductTest@5c3bd550</td></tr>
 </table><p>
 </body>
 </html>
