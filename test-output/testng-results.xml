@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="17" passed="17">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="845266" started-at="2019-05-21T07:07:04Z" finished-at="2019-05-21T07:21:09Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="845266" started-at="2019-05-21T07:07:04Z" finished-at="2019-05-21T07:21:09Z">
+      <class name="com.qa.test.AddProductTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.test.AddProductTest@77caeb3e]" name="setUp" is-config="true" duration-ms="13832" started-at="2019-05-21T12:37:04Z" finished-at="2019-05-21T12:37:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifySelectCategory()[pri:1, instance:com.qa.test.AddProductTest@77caeb3e]" name="verifySelectCategory" duration-ms="25794" started-at="2019-05-21T12:37:17Z" finished-at="2019-05-21T12:37:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySelectCategory -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.test.AddProductTest@77caeb3e]" name="tearDown" is-config="true" duration-ms="587" started-at="2019-05-21T12:37:43Z" finished-at="2019-05-21T12:37:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.test.AddProductTest@77caeb3e]" name="setUp" is-config="true" duration-ms="6704" started-at="2019-05-21T12:37:44Z" finished-at="2019-05-21T12:37:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyProductname()[pri:2, instance:com.qa.test.AddProductTest@77caeb3e]" name="verifyProductname" duration-ms="28193" started-at="2019-05-21T12:37:50Z" finished-at="2019-05-21T12:38:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProductname -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.test.AddProductTest@77caeb3e]" name="tearDown" is-config="true" duration-ms="611" started-at="2019-05-21T12:38:19Z" finished-at="2019-05-21T12:38:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.test.AddProductTest@77caeb3e]" name="setUp" is-config="true" duration-ms="6224" started-at="2019-05-21T12:38:19Z" finished-at="2019-05-21T12:38:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyBrandname()[pri:3, instance:com.qa.test.AddProductTest@77caeb3e]" name="verifyBrandname" duration-ms="30052" started-at="2019-05-21T12:38:26Z" finished-at="2019-05-21T12:38:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBrandname -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.test.AddProductTest@77caeb3e]" name="tearDown" is-config="true" duration-ms="606" started-at="2019-05-21T12:38:56Z" finished-at="2019-05-21T12:38:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.test.AddProductTest@77caeb3e]" name="setUp" is-config="true" duration-ms="7707" started-at="2019-05-21T12:38:56Z" finished-at="2019-05-21T12:39:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyModel()[pri:4, instance:com.qa.test.AddProductTest@77caeb3e]" name="verifyModel" duration-ms="30542" started-at="2019-05-21T12:39:04Z" finished-at="2019-05-21T12:39:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyModel -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.test.AddProductTest@77caeb3e]" name="tearDown" is-config="true" duration-ms="623" started-at="2019-05-21T12:39:34Z" finished-at="2019-05-21T12:39:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.test.AddProductTest@77caeb3e]" name="setUp" is-config="true" duration-ms="5713" started-at="2019-05-21T12:39:35Z" finished-at="2019-05-21T12:39:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifySuspensions()[pri:5, instance:com.qa.test.AddProductTest@77caeb3e]" name="verifySuspensions" duration-ms="31972" started-at="2019-05-21T12:39:41Z" finished-at="2019-05-21T12:40:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySuspensions -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.test.AddProductTest@77caeb3e]" name="tearDown" is-config="true" duration-ms="615" started-at="2019-05-21T12:40:13Z" finished-at="2019-05-21T12:40:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.test.AddProductTest@77caeb3e]" name="setUp" is-config="true" duration-ms="6077" started-at="2019-05-21T12:40:13Z" finished-at="2019-05-21T12:40:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyProdActulPrice()[pri:6, instance:com.qa.test.AddProductTest@77caeb3e]" name="verifyProdActulPrice" duration-ms="31797" started-at="2019-05-21T12:40:19Z" finished-at="2019-05-21T12:40:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProdActulPrice -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.test.AddProductTest@77caeb3e]" name="tearDown" is-config="true" duration-ms="573" started-at="2019-05-21T12:40:51Z" finished-at="2019-05-21T12:40:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.test.AddProductTest@77caeb3e]" name="setUp" is-config="true" duration-ms="6138" started-at="2019-05-21T12:40:52Z" finished-at="2019-05-21T12:40:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifySellingPrice()[pri:7, instance:com.qa.test.AddProductTest@77caeb3e]" name="verifySellingPrice" duration-ms="36390" started-at="2019-05-21T12:40:58Z" finished-at="2019-05-21T12:41:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySellingPrice -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.test.AddProductTest@77caeb3e]" name="tearDown" is-config="true" duration-ms="607" started-at="2019-05-21T12:41:34Z" finished-at="2019-05-21T12:41:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.test.AddProductTest@77caeb3e]" name="setUp" is-config="true" duration-ms="6748" started-at="2019-05-21T12:41:35Z" finished-at="2019-05-21T12:41:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyBaterycap()[pri:8, instance:com.qa.test.AddProductTest@77caeb3e]" name="verifyBaterycap" duration-ms="42728" started-at="2019-05-21T12:41:42Z" finished-at="2019-05-21T12:42:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBaterycap -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.test.AddProductTest@77caeb3e]" name="tearDown" is-config="true" duration-ms="582" started-at="2019-05-21T12:42:24Z" finished-at="2019-05-21T12:42:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.test.AddProductTest@77caeb3e]" name="setUp" is-config="true" duration-ms="5855" started-at="2019-05-21T12:42:25Z" finished-at="2019-05-21T12:42:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyElectMoterBrand()[pri:9, instance:com.qa.test.AddProductTest@77caeb3e]" name="verifyElectMoterBrand" duration-ms="40352" started-at="2019-05-21T12:42:31Z" finished-at="2019-05-21T12:43:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyElectMoterBrand -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.test.AddProductTest@77caeb3e]" name="tearDown" is-config="true" duration-ms="619" started-at="2019-05-21T12:43:11Z" finished-at="2019-05-21T12:43:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.test.AddProductTest@77caeb3e]" name="setUp" is-config="true" duration-ms="6568" started-at="2019-05-21T12:43:12Z" finished-at="2019-05-21T12:43:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyElectMoterYear()[pri:10, instance:com.qa.test.AddProductTest@77caeb3e]" name="verifyElectMoterYear" duration-ms="43038" started-at="2019-05-21T12:43:18Z" finished-at="2019-05-21T12:44:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyElectMoterYear -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.test.AddProductTest@77caeb3e]" name="tearDown" is-config="true" duration-ms="606" started-at="2019-05-21T12:44:01Z" finished-at="2019-05-21T12:44:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.test.AddProductTest@77caeb3e]" name="setUp" is-config="true" duration-ms="5950" started-at="2019-05-21T12:44:02Z" finished-at="2019-05-21T12:44:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyElectMoterMileage()[pri:11, instance:com.qa.test.AddProductTest@77caeb3e]" name="verifyElectMoterMileage" duration-ms="44834" started-at="2019-05-21T12:44:08Z" finished-at="2019-05-21T12:44:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyElectMoterMileage -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.test.AddProductTest@77caeb3e]" name="tearDown" is-config="true" duration-ms="611" started-at="2019-05-21T12:44:53Z" finished-at="2019-05-21T12:44:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.test.AddProductTest@77caeb3e]" name="setUp" is-config="true" duration-ms="6039" started-at="2019-05-21T12:44:53Z" finished-at="2019-05-21T12:44:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyFrameMaterial()[pri:12, instance:com.qa.test.AddProductTest@77caeb3e]" name="verifyFrameMaterial" duration-ms="46712" started-at="2019-05-21T12:44:59Z" finished-at="2019-05-21T12:45:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFrameMaterial -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.test.AddProductTest@77caeb3e]" name="tearDown" is-config="true" duration-ms="609" started-at="2019-05-21T12:45:46Z" finished-at="2019-05-21T12:45:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.test.AddProductTest@77caeb3e]" name="setUp" is-config="true" duration-ms="5982" started-at="2019-05-21T12:45:47Z" finished-at="2019-05-21T12:45:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyFrameSize()[pri:13, instance:com.qa.test.AddProductTest@77caeb3e]" name="verifyFrameSize" duration-ms="49198" started-at="2019-05-21T12:45:53Z" finished-at="2019-05-21T12:46:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFrameSize -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.test.AddProductTest@77caeb3e]" name="tearDown" is-config="true" duration-ms="603" started-at="2019-05-21T12:46:42Z" finished-at="2019-05-21T12:46:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.test.AddProductTest@77caeb3e]" name="setUp" is-config="true" duration-ms="6152" started-at="2019-05-21T12:46:43Z" finished-at="2019-05-21T12:46:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifySupportSp()[pri:14, instance:com.qa.test.AddProductTest@77caeb3e]" name="verifySupportSp" duration-ms="51940" started-at="2019-05-21T12:46:49Z" finished-at="2019-05-21T12:47:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySupportSp -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.test.AddProductTest@77caeb3e]" name="tearDown" is-config="true" duration-ms="601" started-at="2019-05-21T12:47:41Z" finished-at="2019-05-21T12:47:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.test.AddProductTest@77caeb3e]" name="setUp" is-config="true" duration-ms="13605" started-at="2019-05-21T12:47:41Z" finished-at="2019-05-21T12:47:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyWheelSize()[pri:15, instance:com.qa.test.AddProductTest@77caeb3e]" name="verifyWheelSize" duration-ms="59619" started-at="2019-05-21T12:47:55Z" finished-at="2019-05-21T12:48:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyWheelSize -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.test.AddProductTest@77caeb3e]" name="tearDown" is-config="true" duration-ms="613" started-at="2019-05-21T12:48:54Z" finished-at="2019-05-21T12:48:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.test.AddProductTest@77caeb3e]" name="setUp" is-config="true" duration-ms="5978" started-at="2019-05-21T12:48:55Z" finished-at="2019-05-21T12:49:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyGender()[pri:16, instance:com.qa.test.AddProductTest@77caeb3e]" name="verifyGender" duration-ms="55384" started-at="2019-05-21T12:49:01Z" finished-at="2019-05-21T12:49:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyGender -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.test.AddProductTest@77caeb3e]" name="tearDown" is-config="true" duration-ms="645" started-at="2019-05-21T12:49:56Z" finished-at="2019-05-21T12:49:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.test.AddProductTest@77caeb3e]" name="setUp" is-config="true" duration-ms="6178" started-at="2019-05-21T12:49:57Z" finished-at="2019-05-21T12:50:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifySaveBtn()[pri:17, instance:com.qa.test.AddProductTest@77caeb3e]" name="verifySaveBtn" duration-ms="64879" started-at="2019-05-21T12:50:03Z" finished-at="2019-05-21T12:51:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySaveBtn -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.test.AddProductTest@77caeb3e]" name="tearDown" is-config="true" duration-ms="626" started-at="2019-05-21T12:51:08Z" finished-at="2019-05-21T12:51:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.test.AddProductTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
